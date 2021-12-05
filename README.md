@@ -32,5 +32,5 @@ G$a"<Esc>ywbbbPZZ
 
 5. Python dataclasses
 ```
-:5<CR>yw:10<CR>$Pa,<Esc>:6<CR>yw:10<CR>$Pa,<Esc>:7<CR>yw:10<CR>$Pa,<Esc>:8<CR>yw:10<CR>$P<Esc>ZZ
+:5<CR>yw:10<CR>$Pa,<Esc>:6<CR>yw:10<CR>$Pa,<Esc>:7<CR>yw:10<CR>$Pa,<Esc>:8<CR>yw:10<CR>$PZZ
 ```
