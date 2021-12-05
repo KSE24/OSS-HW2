@@ -3,6 +3,7 @@
 <br/>
 
 1. Add quotes to ansible playbook
+- 결과 : 13
 ```
 G$a"<Esc>ywbbbPZZ
 ```
@@ -10,6 +11,7 @@ G$a"<Esc>ywbbbPZZ
 <br/>
 
 2. simple replacements
+- 결과 : 31
 ```
 :%s/\(emacs\|sublime\)/vim/g<CR>ZZ
 ```
@@ -17,6 +19,7 @@ G$a"<Esc>ywbbbPZZ
 <br/>
 
 3. Satisfy the go linter
+- 결과 : 37
 ```
 :4<CR>yyPi// <Esc>2wcwTODO<Esc>yy:6<CR>PwcwDebug<Esc>ZZ
 ```
@@ -24,6 +27,7 @@ G$a"<Esc>ywbbbPZZ
 <br/>
 
 4. Plotting some variables in python
+- 결과 : 62
 ```
 :%s/y1/abs(y1)/g<CR>:3s/1/2/g<CR>:4s/1/3/g<CR>:5s/1/4/g<CR>/k<CR>cwg<Up><BS>r<Up><BS>b<Esc>ZZ
 ```
@@ -31,6 +35,7 @@ G$a"<Esc>ywbbbPZZ
 <br/>
 
 5. Python dataclasses
+- 결과 : 55
 ```
 :5<CR>yw:10<CR>$Pa,<Esc>:6<CR>yw:10<CR>$Pa,<Esc>:7<CR>yw:10<CR>$Pa,<Esc>:8<CR>yw:10<CR>$PZZ
 ```
